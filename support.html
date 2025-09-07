@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beginner's Guide to Building a Computer</title>
+</head>
+<body style="background-color: grey; font-family: Arial, sans-serif;">
+
+    <form style="width: 600px; margin: 30px auto; background-color: grey; padding: 20px; border: 2px solid #333;">
+        <table style="width: 100%; border-collapse: collapse;">
+            <!-- User Name -->
+            <tr>
+                <td style="padding: 10px;"><label for="username">Name:</label></td>
+                <td style="padding: 10px;"><input type="text" id="username" name="username" style="width: 100%; padding: 5px;"></td>
+            </tr>
+
+            <!-- Confidence Dropdown -->
+            <tr>
+                <td style="padding: 10px;"><label for="confidence">Confidence Level:</label></td>
+                <td style="padding: 10px;">
+                    <select id="confidence" name="confidence" style="width: 100%; padding: 5px;">
+                        <option value="very confident">Very Confident</option>
+                        <option value="confident">Confident</option>
+                        <option value="moderate">Moderate</option>
+                        <option value="somewhat unconfident">Somewhat Unconfident</option>
+                        <option value="unconfident">Unconfident</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!-- Radio Buttons -->
+            <tr>
+                <td style="padding: 10px; vertical-align: top;"><legend>Computer Parts:</legend></td>
+                <td style="padding: 10px;">
+                    <input type="radio" id="cpu" name="part" value="CPU">
+                    <label for="cpu">CPU</label><br>
+                    <input type="radio" id="gpu" name="part" value="GPU">
+                    <label for="gpu">GPU</label><br>
+                    <input type="radio" id="motherboard" name="part" value="Motherboard">
+                    <label for="motherboard">Motherboard</label><br>
+                    <input type="radio" id="psu" name="part" value="Powersupply">
+                    <label for="psu">Powersupply</label>
+                </td>
+            </tr>
+
+            <!-- Comment Box -->
+            <tr>
+                <td style="padding: 10px; vertical-align: top;"><label for="comments">Describe Your Knowledge:</label></td>
+                <td style="padding: 10px;">
+                    <textarea id="comments" name="comments" rows="5" style="width: 100%; background-color: lightblue; color: black; padding: 5px;"></textarea>
+                </td>
+            </tr>
+
+            <!-- Links -->
+            <tr>
+                <td style="padding: 10px;">Useful Links:</td>
+                <td style="padding: 10px;">
+                    <a href="index.html" style="color: white;">Homepage</a> |
+                    <a href="components.html" style="color: white;">Component Guide</a> |
+                    <a href="resources.html" style="color: white;">Learning Resources</a>
+                    <a href="support.html" style="color: white; margin-left: 10px;">Support</a>
+                </td>
+            </tr>
+
+            <!-- Buttons -->
+            <tr>
+                <td colspan="2" style="padding: 10px; text-align: center;">
+                    <input type="submit" value="Submit" style="background-color: green; color: white; padding: 10px 20px; border: none;">
+                    <input type="reset" value="Reset" style="background-color: green; color: white; padding: 10px 20px; border: none;">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
